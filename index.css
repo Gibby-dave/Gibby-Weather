@@ -2,6 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: url('/images/weather\ real2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     /* width: 1250px;
     height: 551px; */
 }
