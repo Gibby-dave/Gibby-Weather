@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gibby-dagger</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="background">
+        <div id="firstBackground" class="firstBackground">
+            <p id="locationValue">Current Location:</p>
+            <p id="tempValue">Temperature:</p>
+        </div>
+        <div id="secondBackground" class="secondBackground">
+            <p id="weatherDescription">Weather Description:</p>
+            <p id="countryCode">Country code:</p>
+        </div>
+        <div class="thirdBackground">
+            <input id="weatherInput" type="text" placeholder="Input Your Location"><hr>
+            <br>
+            <button onclick="getWeatherByCity()">Get Weather</button> <br>
+            <b id="showResult"></b> <br>
+        </div>
+    </div>
+
+    <script src="index.js"> 
+    </script>
+    
+</body>
+</html>
