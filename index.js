@@ -25,9 +25,10 @@ if (navigator.geolocation) {
 
 
 
-function showPosition(){
+function showPosition(position){
 const lat = position.coords.latitude;
 const long = position.coords.longitude
+
 getWeather(lat, long);
 }
 
