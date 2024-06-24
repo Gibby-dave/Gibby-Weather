@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     requestLocationAccess();
-     });
+});
 
 
 let locationVal = document.getElementById("locationValue");
